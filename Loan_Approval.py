@@ -3,7 +3,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-LoanData = pd.read_csv('C:/Users/kain_/Downloads/Course Files/007 - Classification/01Exercise1.csv')
+LoanData = pd.read_csv('Loan.csv')
 LoanPrep = LoanData.copy()
 
 LoanPrep.isnull().sum(axis=0)
